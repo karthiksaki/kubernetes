@@ -1,13 +1,12 @@
 # kubernetes
 Kubernetes is an open-source container orchestration platform that automates the deployment, scaling, and management of containerized applications. It abstracts away many complexities of managing containers and provides tools for maintaining the desired state of your applications.
 
-
-**Master Node:**
-        The control plane of Kubernetes is managed by the master node. It contains several components that make global decisions about the cluster, as well as manage its overall state.
+![Diagram-52-1536x1203](https://github.com/karthiksaki/kubernetes/assets/124011389/f7377c84-1939-4c1b-bbfb-dad0746042a4)
 
 ![Diagram-55-1536x1288](https://github.com/karthiksaki/kubernetes/assets/124011389/4081f925-7a39-4835-ad18-7465f44bd138)
 
-
+**Master Node:**
+        The control plane of Kubernetes is managed by the master node. It contains several components that make global decisions about the cluster, as well as manage its overall state.
 
 1) **API Server:** This is the entry point for your requests, acting like an interface where you interact with Kubernetes. Using the Kubernetes API, you communicate your intentions, such as launching or scaling containers.
 
@@ -47,7 +46,8 @@ iii) **Kube Proxy:** Maintains network rules on each node, enabling network comm
 
 **Volume:**
         An abstraction that provides durable storage to Pods, even if the Pod is rescheduled to a different node.
-
+        
+![Diagram-54-1536x1204](https://github.com/karthiksaki/kubernetes/assets/124011389/13fe6327-89b4-4608-835f-5cc53d299d0a)
 
 **The benefits of Kubernetes are:**
 
