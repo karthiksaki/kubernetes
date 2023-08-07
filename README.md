@@ -34,10 +34,10 @@ iii) **Kube Proxy:** Maintains network rules on each node, enabling network comm
         Ensures a specified number of replica Pods are running at all times. It's a higher-level abstraction that allows you to scale your application horizontally.
 
 **Deployment:**
-        Provides declarative updates to applications. It manages ReplicaSets and allows you to define desired state, making it easy to update and rollback application versions.
+        Provides declarative updates to applications. It manages ReplicaSets and allows you to define the desired state, making it easy to update and roll back application versions.
 
 **Namespace:**
-        A virtual cluster inside the physical cluster, used to divide resources between multiple users or projects. It provides a way to isolate resources and prevent naming conflicts.
+        A virtual cluster inside the physical cluster, is used to divide resources between multiple users or projects. It provides a way to isolate resources and prevent naming conflicts.
 
 **ConfigMap and Secret**:
         These are used to manage configuration data and sensitive information (like passwords and tokens) separately from the application code.
