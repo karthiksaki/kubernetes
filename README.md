@@ -5,6 +5,9 @@ Kubernetes is an open-source container orchestration platform that automates the
 **Master Node:**
         The control plane of Kubernetes is managed by the master node. It contains several components that make global decisions about the cluster, as well as manage its overall state.
 
+![Diagram-55-1536x1288](https://github.com/karthiksaki/kubernetes/assets/124011389/4081f925-7a39-4835-ad18-7465f44bd138)
+
+
 
 1) **API Server:** This is the entry point for your requests, acting like an interface where you interact with Kubernetes. Using the Kubernetes API, you communicate your intentions, such as launching or scaling containers.
 
