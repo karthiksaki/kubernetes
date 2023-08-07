@@ -42,7 +42,7 @@ iii) **Kube Proxy:** Maintains network rules on each node, enabling network comm
         Provides declarative updates to applications. It manages ReplicaSets and allows you to define the desired state, making it easy to update and roll back application versions.
 
 **Namespace:**
-        A virtual cluster inside the physical cluster, is used to divide resources between multiple users or projects. It provides a way to isolate resources and prevent naming conflicts.
+        A virtual cluster inside the physical cluster is used to divide resources between multiple users or projects. It provides a way to isolate resources and prevent naming conflicts.
 
 **ConfigMap and Secret**:
         These are used to manage configuration data and sensitive information (like passwords and tokens) separately from the application code.
@@ -51,6 +51,8 @@ iii) **Kube Proxy:** Maintains network rules on each node, enabling network comm
         An abstraction that provides durable storage to Pods, even if the Pod is rescheduled to a different node.
         
 **The benefits of Kubernetes are:**
+
+
 
 Scalability
 High availability
