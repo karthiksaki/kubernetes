@@ -1,7 +1,10 @@
 # kubernetes
 Kubernetes is an open-source container orchestration platform that automates the deployment, scaling, and management of containerized applications. It abstracts away many complexities of managing containers and provides tools for maintaining the desired state of your applications.
 
-Kubernetes architecture consists of several key components that work together to achieve its objectives:
+
+**Master Node:**
+        The control plane of Kubernetes is managed by the master node. It contains several components that make global decisions about the cluster, as well as manage its overall state.
+
 
 1) **API Server:** This is the entry point for your requests, acting like an interface where you interact with Kubernetes. Using the Kubernetes API, you communicate your intentions, such as launching or scaling containers.
 
