@@ -1,8 +1,11 @@
 # kubernetes
 Kubernetes is an open-source container orchestration platform that automates the deployment, scaling, and management of containerized applications. It abstracts away many complexities of managing containers and provides tools for maintaining the desired state of your applications. 
 
+# what Kubernetes can do::
 ![Diagram-52-1536x1203](https://github.com/karthiksaki/kubernetes/assets/124011389/f7377c84-1939-4c1b-bbfb-dad0746042a4)
 
+
+# Architecture Diagram:: 
 ![Diagram-55-1536x1288](https://github.com/karthiksaki/kubernetes/assets/124011389/4081f925-7a39-4835-ad18-7465f44bd138)
 
 **Master Node:**
