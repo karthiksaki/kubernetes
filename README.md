@@ -50,11 +50,12 @@ iii) **Kube Proxy:** Maintains network rules on each node, enabling network comm
 **Volume:**
         An abstraction that provides durable storage to Pods, even if the Pod is rescheduled to a different node.
         
-![Diagram-54-1536x1204](https://github.com/karthiksaki/kubernetes/assets/124011389/13fe6327-89b4-4608-835f-5cc53d299d0a)
-
 **The benefits of Kubernetes are:**
 
 Scalability
 High availability
 Portability
 Security
+
+![Diagram-54-1536x1204](https://github.com/karthiksaki/kubernetes/assets/124011389/13fe6327-89b4-4608-835f-5cc53d299d0a)
+
