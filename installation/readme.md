@@ -1,0 +1,1 @@
+Kops (short for Kubernetes Operations) is a command-line tool used for deploying, managing, and operating Kubernetes clusters on various cloud platforms or on-premises infrastructure. It was primarily designed for simplifying the process of setting up and maintaining production-ready Kubernetes clusters.
