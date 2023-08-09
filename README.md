@@ -61,3 +61,8 @@ Security
 
 ![Diagram-54-1536x1204](https://github.com/karthiksaki/kubernetes/assets/124011389/13fe6327-89b4-4608-835f-5cc53d299d0a)
 
+
+**KUBECTL CHEAT SHEET**
+
+[https://kubernetes.io/docs/reference/kubectl/cheatsheet/]
+
