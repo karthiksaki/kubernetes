@@ -66,3 +66,36 @@ Security
 
 [https://kubernetes.io/docs/reference/kubectl/cheatsheet/]
 
+**Kubernetes — Service Types**
+There are four types of Kubernetes services — ClusterIP, NodePort, LoadBalancer and ExternalName. The type property in the Service's spec determines how the service is exposed to the network
+**1. ClusterIP**
+ClusterIP is the default and most common service type.
+Kubernetes will assign a cluster-internal IP address to ClusterIP service. This makes the service only reachable within the cluster.
+You cannot make requests to service (pods) from outside the cluster.
+You can optionally set cluster IP in the service definition file.
+**Use Cases**
+Inter service communication within the cluster. For example, communication between the front-end and back-end components of your app.
+
+**example**
+
+apiVersion: v1
+kind: Service
+metadata:
+  name: my-backend-service
+spec:
+  type: ClusterIP # Optional field (default)
+  clusterIP: 10.10.0.1 # within service cluster ip range
+  ports:
+  - name: http
+    protocol: TCP
+    port: 80
+
+**Kubernetes NodePort service**
+NodePorts are open ports on every cluster node. Kubernetes will route traffic that comes into a NodePort to the service, even if the service is not running on that node. NodePort is intended as a foundation for other higher-level methods of ingress such as load balancers and are useful in development.
+
+**Kubernetes Load Balancer service**
+For clusters running on public cloud providers like AWS or Azure, creating a load LoadBalancer service provides an equivalent to a clusterIP service, extending it to an external load balancer that is specific to the cloud provider. Kubernetes will automatically create the load balancer, provide firewall rules if needed, and populate the service with the external IP address assigned by the cloud provider.
+
+**How do Kubernetes services work?**
+Services simply point to pods using labels. Since services are not node-specific, a service can point to a pod regardless of where it runs in the cluster at any given moment in time. By exposing a service IP address as well as a DNS service name, the application can be reached by either method as long as the service exists.
+
