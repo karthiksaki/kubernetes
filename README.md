@@ -28,6 +28,7 @@ i) **Kubelet:** Responsible for communicating with the master node and ensuring 
 ii) **Container Runtime:** The software responsible for running containers, such as Docker or containerd.
 
 iii) **Kube Proxy:** Maintains network rules on each node, enabling network communication between Pods and services.
+ **Kube-Proxy works by maintaining a set of network rules on each node in the cluster, which are updated dynamically as services are added or removed. When a client sends a request to service the request is intercepted by kube-proxy on the node where it was received. Kuber proxy then looks up the destination endpoint for the service and routes the request accordingly. Kube-proxy is an essential component of a Kubernetes cluster as it ensures that services can communicate with each other**
 
 **Pod:**
         The smallest deployable unit in Kubernetes. A Pod can contain one or more containers that share the same network and storage. Containers within the same Pod can communicate with each other using localhost.
