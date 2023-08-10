@@ -2,6 +2,7 @@ Kops (short for Kubernetes Operations) is a command-line tool used for deploying
 
 Kops enables users to create, update, and delete Kubernetes clusters in a declarative manner, typically by defining a cluster specification in a YAML file. This specification includes details about the desired cluster configuration, such as the number of nodes, instance types, network settings, and more. Kops then uses this specification to provision and configure the necessary resources in the chosen cloud provider or infrastructure.
 
+{https://collabnix.com/ansible-cheatsheet/}
 ## Key features and capabilities of Kops include:
 
 **Cluster Lifecycle Management**: Kops helps with the entire lifecycle of a Kubernetes cluster, from provisioning and scaling to upgrading and decommissioning.
