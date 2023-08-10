@@ -1,6 +1,11 @@
 # kubernetes
 Kubernetes is an open-source container orchestration platform that automates the deployment, scaling, and management of containerized applications. It abstracts away many complexities of managing containers and provides tools for maintaining the desired state of your applications. 
 
+**Docker cheat sheet** [https://dockerlabs.collabnix.com/docker/cheatsheet/]
+**kubernetes cheat sheet**: [https://kubernetes.io/docs/reference/kubectl/cheatsheet/]
+**linux cheat shee**t : [https://cheatography.com/davechild/cheat-sheets/linux-command-line/]
+**chat gpt cheat sheet** [https://quickref.me/chatgpt.html]
+
 # What Kubernetes can do:: 
 ![Diagram-52-1536x1203](https://github.com/karthiksaki/kubernetes/assets/124011389/f7377c84-1939-4c1b-bbfb-dad0746042a4)
 
