@@ -1,7 +1,3 @@
-
-systemctl enable prometheus
-systemctl status prometheus
-
 kubectl get pods --> to know the list of running pods
 kubectl run nginx --image=nginx --> to create a pod with the name nginx
 kubectl describe pod "pod-name" --> to find the full details of the pod
